@@ -108,6 +108,10 @@ Após baixar o repositório executar:
 
 ```npm install```
 
+Como executar os endpoints:
+
+```npm run dev```
+
 Como executar os testes:
 
 ```npm test```
