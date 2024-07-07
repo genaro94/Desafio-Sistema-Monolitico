@@ -112,12 +112,18 @@ Implemente os testes end-to-end destes endpoints com a lib supertest, ao rodar o
 ## Como usar
 Após baixar o repositório executar:
 
-```npm install```
+```
+npm install
+```
 
 Como executar os endpoints:
 
-```npm run dev```
+```
+npm run dev
+```
 
 Como executar os testes:
 
-```npm test```
+```
+npm test
+```
