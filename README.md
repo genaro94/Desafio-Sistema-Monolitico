@@ -10,6 +10,7 @@ Para este módulo você precisa utilizar:
 
 Os campos do invoice são:
 
+```
 id?: Id // criado automaticamente
 name: string
 document: string
@@ -17,9 +18,11 @@ address: Address // value object
 items: InvoiceItems[] // Invoice Items entity
 createdAt?: Date // criada automaticamente
 updatedAt?: Date // criada automaticamente
- 
+```
+
 A entidade InvoiceItems precisa ter:
 
+```
 id?: Id // criada automaticamente
 name: string
 price: number
@@ -85,6 +88,7 @@ export interface GenerateInvoiceUseCaseOutputDto {
   }[];
   total: number;
 }
+```
 
 * A linguagem de programação para este desafio é TypeScript
 
@@ -94,10 +98,12 @@ Agora que temos todos os usecases, precisamos disponibilizar os endpoints para q
 
 Disponibilize os seguintes endpoints:
 
+```
 POST /products
 POST /clients
 POST /checkout/
 GET /invoice/<id>
+```
 
 * A linguagem de programação para este desafio é TypeScript
 
